@@ -67,22 +67,26 @@ Coloane:
     - 3 - localităţi componente şi sate
 - `SIRSUP`: cod de identificare pentru unitatea
 administrativă ierarhic superioară
-- `TIP`: tip de localitate
+- `TIP`: tip de localitate, ierarhizate astfel:
     - 40: județ / municipiul București
-    -  1: municipiu reședință de județ, municipiul București
-    -  2: oraș ce aparține de județ, altele decât reședință de județ
-    -  3: comună
-    -  4: municipiu, altele decât reședință de județ
-    -  5: oraș reședință de județ
-    -  6: sectoarele municipiului București
-    -  9: localitate componentă, reședință de minicipiu
-    - 10: alte localități ale municipiului
-    - 11: sat ce aparține de municipiu
-    - 17: localitate componentă, reședința de oraș
-    - 18: localități componente ale orașului, altele decât reședința de oraș
-    - 19: sate subordonate unui oraș
-    - 22: sat reședință de comună
-    - 23: sate ce aparțin de comună, altele decât reședința de comună
+        -  1: municipiu reședință de județ / municipiul București
+            -  9: localitate componentă reședință de municipiu
+            - 10: alte localități ale municipiului
+            - 11: sat ce aparține de municipiu
+            și doar pentru municipiul București:
+            -  6: sectoarele municipiului București
+        -  4: municipiu, altele decât reședință de județ
+            - 9, 10, 11
+        -  5: oraș reședință de județ
+            - în teorie 17, 18, 19, dar momentan nu există un astfel de oraș,
+              doar municipii reședință de județ
+        -  2: oraș ce aparține de județ, altele decât reședință de județ
+            - 17: localitate componentă reședință de oraș
+            - 18: localități componente ale orașului, altele decât reședința de oraș
+            - 19: sate subordonate unui oraș
+        -  3: comună
+            - 22: sat reședință de comună
+            - 23: sate ce aparțin de comună, altele decât reședința de comună
 - `DENLOC`: denumire unitate administrativ teritorială / localitate
 - `ULT`: ?
 - `MED`: cod mediu
