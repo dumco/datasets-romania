@@ -25,20 +25,21 @@ function placemark2feature(placemark::EzXML.Node, ns)::GeoInterface.Feature
     props = Dict(normalize(sd["name"]) => normalize(sd.content) for sd = sds)
 
     # extract coords
-    poly_coords = [coordinates2vec(coords)
-                   for coords = findall(".//kml:Polygon//kml:coordinates", placemark, ns)]
-    ls_coords = [coordinates2vec(coords)
-                 for coords = findall(".//kml:LineString/kml:coordinates", placemark, ns)]
-    # exactly one should contain coords
-    @assert isempty(poly_coords) ⊻ isempty(ls_coords)
+    polygons = [[coordinates2vec(coords) for coords = findall(".//kml:coordinates", polygon, ns)]
+                for polygon = findall(".//kml:Polygon", placemark, ns)]
+    linestrings = [coordinates2vec(coords)
+                   for coords = findall(".//kml:LineString/kml:coordinates", placemark, ns)]
+    # exactly one should be empty
+    @assert isempty(polygons) ⊻ isempty(linestrings)
 
-    geom = if !isempty(poly_coords)
-        length(poly_coords) > 1 ?
-            GeoInterface.MultiPolygon([poly_coords]) :
-            GeoInterface.Polygon(poly_coords)
+    geom = if !isempty(polygons)
+        length(polygons) > 1 ?
+            GeoInterface.MultiPolygon(polygons) :
+            GeoInterface.Polygon(polygons |> first)
     else
-        @assert length(ls_coords) == 1
-        GeoInterface.LineString(ls_coords |> first)
+        # there should be exactly one `<LineString>/<coordinates>` in a Placemark
+        @assert length(linestrings) == 1
+        GeoInterface.LineString(linestrings |> first)
     end
     GeoInterface.Feature(geom, props)
 end
