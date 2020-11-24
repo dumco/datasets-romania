@@ -1,5 +1,5 @@
 ## Unități administrativ teritoriale + limite / 2020-11-12
-Descarcă setul de date procesat în format GeoJSON: [link](https://github.com/dumco/datasets-romania/releases/download/uat-2020-11-12/uat-2020-11-12-geojson.zip).
+Descarcă setul de date procesat în format GeoJSON sau TopoJSON: [link](https://github.com/dumco/datasets-romania/releases/tag/uat-2020-11-12).
 
 Coordonatele sunt în sistemul geodetic [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84).
 
@@ -25,28 +25,39 @@ Preluată din [nomenclatorul gestionarilor de date spațiale](http://geoportal.g
 Nota editorului: deși fișierele originale au extensia `.kmz`, sunt de fapt KML-uri
 necomprimate.
 
-## Generarea datelor în format GeoJSON
-Pentru a genera datele în format GeoJSON sunt necesare două comenzi:
+## Transformarea datelor în format GeoJSON
+Pentru a transforma datele în format [GeoJSON](https://tools.ietf.org/html/rfc7946):
 ```
-$ julia download.jl
-$ julia make_geojson.jl
+$ make geojson
 ```
+Este nevoie ca `julia` să fie instalat și în PATH. Codul este testat cu Julia 1.5.3.
 
 Scriptul `download.jl` descarcă setul de date [original](https://github.com/dumco/datasets-romania/releases/download/uat-2020-11-12/uat-2020-11-12-original.zip)
 în directorul `original/`. Scriptul `make_geojson.jl` generează datasetul în format
 GeoJSON în directorul `geojson/`.
 
-## Fișiere
-- limita_administrativa_tara.geojson: frontiera țării
-- limita_administrativa_judet.geojson: limite de județ
-- limita_administrativa_uat.geojson: limite de demarcație între unități
+## Transformarea datelor în format TopoJSON
+Pentru a transforma datele în format [TopoJSON](https://github.com/topojson/topojson):
+```
+$ make topojson
+```
+Pasul acesta are nevoie de utilitarul [Mapshaper](https://github.com/mbloch/mapshaper).
+Codul este testat cu Mapshaper 0.5.24.
+
+Fișierele TopoJSON nu conțin toate câmpurile din setul de date original, ci doar
+ce am considerat eu că este cu adevărat important, anume denumiri și coduri SIRUTA.
+
+## Fișiere GeoJSON
+- `limita_administrativa_tara.geojson`: frontiera țării
+- `limita_administrativa_judet.geojson`: limite de județ
+- `limita_administrativa_uat.geojson`: limite de demarcație între unități
   administrative vecine. Au fost stabilite prin implicarea următorilor factori:
   prefecturi, primării, OCPI-uri, ANCPI, instituții publice. Limitele unităților
   administrative vecine care nu au fost agreate de către unul din factorii
   implicați au fost marcate ca fiind neagreate (`"LegalStatus": "nonAgreed"`)
-- unitate_administrativa_tara.geojson: frontiera țării
-- unitate_administrativa_judet.geojson: perimetrele județelor
-- unitate_administrativa_uat.geojson: perimetrele unităților administrative
+- `unitate_administrativa_tara.geojson`: frontiera țării
+- `unitate_administrativa_judet.geojson`: perimetrele județelor
+- `unitate_administrativa_uat.geojson`: perimetrele unităților administrative
   la nivel local
 
 Câteva proprietăți interesante ale unităților sunt:
@@ -74,9 +85,20 @@ Mai multe detalii despre fișiere și semnificația proprietăților obiectelor
 conținute se găsesc în fișierul `descriereclaseobiectecampurikmz.xls` din setul
 de date original.
 
+## Fișiere TopoJSON
+- `romania.topojson` conține toată topologia, în 3 layere:
+  - `country`: frontiera țării
+  - `counties`: formele județelor
+  - `local`: UAT-urile la nivel local: municipii, orașe, comune
+- `romania.pretty.topojson`: același conținut, dar lizibil
+- `romania.simplified-4x.topojson`: același conținut, dar păstrând numai 25% din detalii
+- `romania.simplified-20x.topojson`: același conținut, dar păstrând numai 5% din detalii
+
 ## Informații utile
 - https://mapshaper.org
+  - https://github.com/mbloch/mapshaper/wiki/Command-Reference
+- https://tools.ietf.org/html/rfc7946
+  - https://macwright.com/2015/03/23/geojson-second-bite
+- https://github.com/topojson/topojson
 - https://nextjournal.com/sdanisch/cartographic-visualization
-- https://macwright.com/2015/03/23/geojson-second-bite
-- https://github.com/topojson/topojson/blob/master/README.md
 - https://spatialreference.org

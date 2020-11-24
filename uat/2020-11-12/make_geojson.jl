@@ -44,7 +44,7 @@ function placemark2feature(placemark::EzXML.Node, ns)::GeoInterface.Feature
     GeoInterface.Feature(geom, props)
 end
 
-function kml2geojson(inout::Pair{String, String})
+function kml2geojson(inout::Pair{String,String})
     in, out = inout
     @info "converting $(in) to $(out)..."
     @info "reading KML from $(in)..."
