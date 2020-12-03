@@ -1,0 +1,266 @@
+## Recensământul Populației și al Locuințelor 2011
+Descarcă setul de date original în format XLS: [link](https://github.com/dumco/datasets-romania/releases/download/rpl-2011/rpl-2011-original.zip).
+
+## Descriere
+Preluată de pe pagina [oficială](http://www.recensamantromania.ro/despre-recensamant/)
+a recensământului:
+
+> Pentru planificarea şi implementarea politicilor economice şi sociale de dezvoltare,
+> pentru activităţi administrative sau de cercetare ştiinţifică este necesară existenţa
+> unor date detaliate referitoare la mărimea, distribuţia şi compoziţia populaţiei.
+> Recensământul este o sursă primordială pentru aceste date.
+>
+> OBIECTIVE:
+> <ul>
+>   <li>
+>   prioritar – de a obţine informaţii ample şi de calitate privind numărul şi distribuţia
+>     teritorială a populaţiei, a structurii demografice şi socio-economice, date referitoare
+>     la gospodăriile populaţiei, precum şi la fondul locativ şi condiţiile de locuit ale
+>     populaţiei şi clădirile în care se situează locuinţele.
+>   </li>
+>   <li>
+>   complementar – bazei de fundamentare a unei analize adecvate a dinamicii diferitelor
+>     fenomene demografice şi socio-economice, obiectiv strâns legat atât de gradul ridicat
+>     al comparabilităţii datelor pe plan internaţional, cât şi de cel al comparabilităţii
+>     cu datele obţinute la recensămintele anterioare efectuate în România.
+>   </li>
+> </ul>
+
+Secțiunea următoare descrie fiecare tabel din setul de date.
+
+## Setul de date original
+- `t01.xls`: Populația la recensămintele din anii 1948, 1956, 1966, 1977, 1992, 2002 și 2011 – categorii de localități și județe
+- `t02.xls`: Populația stabilă pe sexe și grupe de vârstă – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `t03.xls`: Populația stabilă pe sexe și grupe de vârstă – județe, municipii, orașe, comune
+- `t04.xls`: Populația stabilă pe sexe, după starea civilă – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `t05.xls`: Populația stabilă pe sexe și stare civilă – județe, municipii, orașe, comune
+- `t06.xls`: Populația stabilă pe sexe și starea civilă, după grupa de vârstă – categorii de localități
+- `t07.xls`: Populația stabilă pe sexe, după etnie – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `t08.xls`: Populația stabilă după etnie – județe, municipii, orașe, comune
+- `t09.xls`: Populația stabilă pe sexe, după limba maternă – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `t10.xls`: Populația stabilă după limba maternă – județe, municipii, orașe, comune
+- `t11.xls`: Populația stabilă după etnie și limba maternă, pe categorii de localități
+- `t12.xls`: Populația stabilă pe sexe, după religie – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `t13.xls`: Populația stabilă după religie – județe, municipii, orașe, comune
+- `t14.xls`: Populația stabilă după etnie și religie – categorii de localități
+- `t15.xls`: Populația stabilă de 10 ani și peste pe sexe, după nivelul de educație – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `t16.xls`: Populația stabilă de 10 ani și peste pe sexe, după nivelul de educație – județe, municipii, orașe, comune
+- `t17.xls`: Populația stabilă de 10 ani și peste pe sexe și grupe de vârstă, după nivelul de educație – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `t18.xls`: Populația stabilă de 10 ani și peste pe sexe, după etnie și nivelul de educație – categorii de localități
+- `t19.xls`: Persoane temporar absente plecate în străinătate după țara de destinație, pe sexe și grupe de vârstă – categorii de localități și județe
+- `t20.xls`: Persoane plecate pentru perioadă îndelungată în străinătate, după țara de destinație, pe sexe și grupe de vârstă – categorii de localități și județe
+
+### Volumul I: Populația stabilă (rezidentă) – structura demografică
+- `vol1/t01.xls`: Populația la recensămintele din anii 1948, 1956, 1966, 1977, 1992, 2002 și 2011 – județe și categorii de localități
+- `vol1/t02.xls`: Populația pe sexe – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol1/t03.xls`: Populația pe sexe după grupa de vârstă – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol1/t04.xls`: Structura populației pe sexe și grupe de vârstă – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol1/t05.xls`: Populația pe sexe, după domiciliu – județe și categorii de localități
+- `vol1/t06.xls`: Populația pe sexe, după județul de domiciliu – categorii de localități și județe
+- `vol1/t07.xls`: Populația pe grupe de vârstă și sexe, după domiciliu – categorii de localități
+- `vol1/t08.xls`: Populația pe sexe, după locul nașterii – județe și categorii de localități
+- `vol1/t09.xls`: Populația pe sexe, după țara de naștere și grupa de vârstă – categorii de localitați
+- `vol1/t10.xls`: Populația după domiciliu și locul nașterii – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol1/t11.xls`: Populația pe sexe, după locul de domiciliu și cel în care s-a născut – categorii de localități și județe
+- `vol1/t12.xls`: Populația pe sexe și stare civilă, după grupe de vârstă – categorii de localități
+- `vol1/t13.xls`: Populația pe sexe și stare civilă, după domiciliu – categorii de localități
+- `vol1/t14.xls`: Populația feminină de 15 ani și peste după anul nașterii și numărul copiilor născuți-vii – categorii de localități
+- `vol1/t15.xls`: Populația feminină de 15 ani și peste pe vârste, după numărul copiilor născuți-vii – categorii de localități
+- `vol1/t16.xls`: Populația feminină de 15 ani și peste pe vârste, după numărul copiilor născuți-vii – macroregiuni și regiuni de dezvoltare
+- `vol1/t17.xls`: Populația feminină de 15 ani și peste pe grupe de vârstă, după starea civilă, nivelul de educație al instituției de învățământ absolvite și numărul copiilor născuți-vii
+- `vol1/t18.xls`: Populația feminină de 15 ani și peste la prima căsatorie pe vârste, după vârsta la data căsătoriei și numărul copiilor născuți-vii
+- `vol1/t19.xls`: Populația feminină de 15 ani și peste la prima căsătorie pe grupe de vârstă, după anul încheierii căsătoriei și numărul copiilor născuți-vii
+- `vol1/t20.xls`: Femei de 15 ani și peste căsătorite pe grupe de vârstă, după durata căsătoriei – categorii de localități
+- `vol1/t21.xls`: Femei de 15 ani și peste care trăiesc în uniune consensuală pe grupe de vârstă, după durata uniunii – categorii de localități
+- `vol1/t22.xls`: Populația pe sexe, după cetățenie – macroregiuni, regiuni de dezvoltare și județe
+- `vol1/t23.xls`: Populația de cetățenie română pe sexe și grupe de vârstă, după statutul activității curente și țara de naștere – categorii de localități
+- `vol1/t24.xls`: Cetățeni străini veniți în România pentru cel puțin 12 luni pe grupe de vârstă, după statutul activității curente – categorii de localități
+- `vol1/t25.xls`: Cetățeni străini de 10 ani și peste veniți în România pentru cel puțin 12 luni după nivelul de educație al instituției de învățământ absolvite și țara de cetățenie – categorii de localități
+- `vol1/t26.xls`: Persoane care și-au schimbat reședința pe sexe, după județul de reședință și județul ultimei reședințe anterioare – categorii de localități și județe
+- `vol1/t27.xls`: Persoane care și-au schimbat reședința pe sexe, grupe de vârstă la data stabilirii în localitatea de reședință și perioada stabilirii în această localitate – categorii de localități
+- `vol1/t28.xls`: Persoane care și-au schimbat reședința după reședința anterioară – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol1/t29.xls`: Persoane care au avut ultima reședință anterioară în străinătate pe sexe, după motivul și perioada stabilirii reședinței în România – categorii de localități și județe
+- `vol1/t30.xls`: Persoane care au avut ultima reședință anterioară în străinătate pe sexe, după motivul stabilirii în România și grupa de vârstă avută la data schimbării reședinței – categorii de localități și județe
+- `vol1/t31.xls`: Persoane care au avut vreodată reședința în străinătate pe sexe, după țara de proveniență și perioada stabilirii reședinței în România – categorii de localități și județe
+- `vol1/t32.xls`: Persoane temporar absente plecate în țară sau în străinătate pe sexe și grupe de vârstă – categorii de localități și județe
+- `vol1/t33.xls`: Persoane temporar absente pe sexe, după județul de destinație – județe
+- `vol1/t34.xls`: Persoane temporar absente pe sexe, după perioada pentru care sunt plecate și motivul absenței – categorii de localități și județe
+- `vol1/t35.xls`: Persoane temporar absente plecate în străinătate după țara de destinație, pe sexe și grupe de vârstă – categorii de localități și județe
+- `vol1/t36.xls`: Persoane temporar absente plecate în străinătate pe sexe, după nivelul de educație al instituției de învățământ absolvite și motivul absenței – categorii de localități și județe
+- `vol1/t37.xls`: Populația de 10 ani și peste care a absolvit o instituție de învățământ după nivelul de educație, profilul și forma de proprietate a acesteia, pe sexe – categorii de localități
+- `vol1/t38.xls`: Persoane care au diplomă de masterat pe sexe și grupe de vârstă, după profilul instituției organizatoare – categorii de localități
+- `vol1/t39.xls`: Persoane care au diplomă de doctorat pe sexe și grupe de vârstă, după profilul instituției organizatoare – categorii de localități
+- `vol1/t40.xls`: Populația de 10 ani și peste după nivelul de educație, profilul instituției de învățământ absolvite și statutul activității curente, pe sexe și grupe de vârstă
+- `vol1/t41.xls`: Populația de 10 ani și peste analfabetă pe sexe și grupe de vârstă – macroregiuni, regiuni de dezvoltare și categorii de localități
+- `vol1/t42.xls`: Populația de 10 ani și peste analfabetă pe sexe, după statutul activității curente – categorii de localități
+- `vol1/t43.xls`: Populația de 10 ani și peste analfabetă pe sexe, după etnie – categorii de localități
+- `vol1/t44.xls`: Populația de 10 ani și peste analfabetă după etnie și statutul activității curente – categorii de localități
+- `vol1/t45.xls`: Populația de 6 ani și peste care urmează o instituție de învățământ după nivelul de educație al acesteia, pe sexe și grupe de vârstă – categorii de localități
+- `vol1/t46.xls`: Persoane care urmează cursuri de masterat pe sexe și grupe de vârstă, după profilul instituției organizatoare – categorii de localități
+- `vol1/t47.xls`: Persoane care urmează cursuri de doctorat pe sexe și grupe de vârstă, după profilul instituției organizatoare – categorii de localități
+- `vol1/t48.xls`: Populația de 6 ani și peste care folosește internetul pe grupe de vârstă și sexe – județe și categorii de localități
+- `vol1/t49.xls`: Populația de 10 ani și peste care folosește internetul după nivelul de educație al instituției de învățământ absolvite, pe sexe – județe și categorii de localități
+- `vol1/t50.xls`: Populația pe sexe și grupe de vârstă – județe, categorii de localități, municipii, orașe și comune
+- `vol1/t51.xls`: Populația pe sexe, vârste și ani de naștere – categorii de localități
+- `vol1/t52.xls`: Persoane care au avut ultima reședință anterioară în străinătate după țara de proveniență, pe sexe și grupe de vârstă – categorii de localități și județe
+- `vol1/t53.xls`: Persoane care au avut ultima reședință anterioară în străinătate pe sexe, după țara de proveniență și durata de reședință în România – categorii de localități și județe
+- `vol1/t54.xls`: Persoane care au avut ultima reședință anterioară în străinătate pe sexe, după etnie și perioada stabilirii reședinței în România – categorii de localități și județe
+- `vol1/t55.xls`: Persoane care au avut vreodată reședința în străinătate după țara de proveniență, pe sexe și grupe de vârstă – categorii de localități și județe
+- `vol1/t56.xls`: Persoane care au avut vreodată reședința în străinătate după țara de proveniență, pe sexe și durata de reședință în România – categorii de localități și județe
+- `vol1/t57.xls`: Persoane care au avut vreodată reședința în străinătate pe sexe, după etnie și perioada stabilirii reședinței în România – categorii de localități și județe
+- `vol1/t58.xls`: Persoane temporar absente plecate în țară pe sexe și grupe de vârstă, după motivul absenței – categorii de localități și județe
+- `vol1/t59.xls`: Persoane temporar absente plecate în țară pe sexe, după perioada pentru care sunt plecate și motivul absenței – categorii de localități și județe
+- `vol1/t60.xls`: Persoane temporar absente pe sexe și grupe de vârstă, după motivul absenței – categorii de localități și județe
+- `vol1/t61.xls`: Persoane temporar absente plecate în străinătate pe sexe, după țara de destinație și motivul absenței – categorii de localități și județe
+- `vol1/t62.xls`: Persoane temporar absente plecate în străinătate pe sexe, după țara de destinație și perioada pentru care sunt plecate – categorii de localități și județe
+
+### Volumul II: Populația stabilă (rezidentă) – structura etnică și confesională
+- `vol2/t01.xls`: Populația după etnie la recensămintele din perioada 1930-2011 – județe
+- `vol2/t02.xls`: Populația după etnie – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol2/t03.xls`: Populația pe sexe, după etnie – categorii de localități și județe
+- `vol2/t04.xls`: Populația pe sexe, după etnie – macroregiuni, regiuni de dezvoltare și categorii de localități
+- `vol2/t05.xls`: Populația pe sexe și grupe de vârstă, după etnie – categorii de localități și județe
+- `vol2/t06.xls`: Populația după limba maternă – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol2/t07.xls`: Populația pe sexe și grupe de vârstă, după limba maternă – categorii de localități și județe
+- `vol2/t08.xls`: Populația pe sexe, după limba maternă – macroregiuni, regiuni de dezvoltare și categorii de localități
+- `vol2/t09.xls`: Populația după etnie și limba maternă, pe sexe – categorii de localități
+- `vol2/t10.xls`: Populația după etnie și limba maternă – județe
+- `vol2/t11.xls`: Populația după religie – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol2/t12.xls`: Populația pe sexe, după religie – categorii de localități și județe
+- `vol2/t13.xls`: Populația pe sexe, după religie – macroregiuni, regiuni de dezvoltare și categorii de localități
+- `vol2/t14.xls`: Populația după etnie și religie – categorii de localități și județe
+- `vol2/t15.xls`: Populația pe sexe, după starea civilă și etnie – categorii de localități
+- `vol2/t16.xls`: Populația pe grupe de vârstă și sexe, după etnie și starea civilă – categorii de localități
+- `vol2/t17.xls`: Populația pe grupe de vârstă și sexe, după statutul activității curente și etnie – categorii de localități
+- `vol2/t18.xls`: Populația pe sexe, după starea civilă și religie – categorii de localități
+- `vol2/t19.xls`: Populația feminină de 15 ani și peste pe grupe de vârstă, după etnie și numărul copiilor născuți-vii – categorii de localități
+- `vol2/t20.xls`: Populația feminină de 15 ani și peste după etnie, starea civilă și numărul copiilor născuți-vii – categorii de localități
+- `vol2/t21.xls`: Populația feminină de 15 ani și peste pe grupe de vârstă, după religie și numărul copiilor născuți-vii – categorii de localități
+- `vol2/t22.xls`: Populația feminină de 15 ani și peste după starea civilă, religie și numărul copiilor născuți-vii – categorii de localități
+- `vol2/t23.xls`: Populația de 10 ani și peste pe sexe, după etnie și nivelul de educație al instituției de învățământ absolvite – categorii de localități și județe
+- `vol2/t24.xls`: Populația de 10 ani și peste pe sexe, după religie și nivelul de educație al instituției de învățământ absolvite – categorii de localități și județe
+- `vol2/t25.xls`: Populația de 10 ani și peste analfabetă pe grupe de vârstă și sexe, după etnie – categorii de localități
+- `vol2/t26.xls`: Populația de 10 ani și peste analfabetă după etnie, pe sexe – județe
+- `vol2/t27.xls`: Populația de 6 ani și peste pe sexe, după etnie și nivelul de educație al instituției de învățământ urmate – categorii de localități
+- `vol2/t28.xls`: Populația pe grupe de vârstă și sexe, după statutul activității curente și religie – categorii de localități
+- `vol2/t29.xls`: Populația pe sexe, după etnie și statutul activității curente – categorii de localități
+- `vol2/t30.xls`: Populația ocupată pe sexe, după etnie și grupe de ocupații – categorii de localități
+- `vol2/t31.xls`: Populația ocupată pe sexe și activități ale economiei naționale, după etnie – categorii de localități
+- `vol2/t32.xls`: Populația ocupată pe sexe, după etnie și statutul profesional – categorii de localități
+- `vol2/t33.xls`: Populația ocupată pe sexe, după etnie și localizarea geografică a locului de muncă
+- `vol2/t34.xls`: Șomeri pe sexe, după etnie și durata șomajului – categorii de localități
+
+### Volumul III: Populația stabilă (rezidentă) – structura social – economică
+- `vol3/t01.xls`: Populația activă și inactivă pe sexe și grupe de vârstă – categorii de localități și județe
+- `vol3/t02.xls`: Populația activă și inactivă pe sexe și grupe de vârstă – macroregiuni și regiuni de dezvoltare
+- `vol3/t03.xls`: Populația pe sexe, grupe de vârstă și statutul activității curente, după domiciliu
+- `vol3/t04.xls`: Populația pe sexe, grupe de vârstă și statutul activității curente, după starea civilă – categorii de localități
+- `vol3/t05.xls`: Populația feminină de 15 ani și peste după statutul activității curente și numărul copiilor născuți-vii – categorii de localități
+- `vol3/t06.xls`: Populația feminină de 15 ani și peste pe grupe de vârstă, după statutul activității curente, starea civilă și numărul copiilor născuți-vii – categorii de localități
+- `vol3/t07.xls`: Populația feminină de 15 ani și peste activă după statutul profesional și numărul copiilor născuți-vii – categorii de localități
+- `vol3/t08.xls`: Populația activă pe sexe și grupe de ocupații, după nivelul de educație al instituției de învățământ absolvite – categorii de localități
+- `vol3/t09.xls`: Populația activă pe sexe și activități ale economiei naționale, după nivelul de educație al instituției de învățământ absolvite – categorii de localități
+- `vol3/t10.xls`: Populația activă și ocupată pe sexe și vârste – categorii de localități
+- `vol3/t11.xls`: Populația activă și ocupată pe sexe – municipii, orașe
+- `vol3/t12.xls`: Populația ocupată pe sexe și grupe de ocupații – categorii de localități
+- `vol3/t13.xls`: Populația ocupată pe sexe, grupe de ocupații și grupe de vârstă – categorii de localități
+- `vol3/t14.xls`: Populația ocupată pe sexe și grupe de ocupații – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `vol3/t15.xls`: Populația ocupată pe sexe și activități ale economiei naționale – categorii de localități
+- `vol3/t16.xls`: Populația ocupată pe sexe, grupe de vârstă și activități ale economiei naționale – categorii de localități
+- `vol3/t17.xls`: Populația ocupată pe sexe și activități ale economiei naționale – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `vol3/t18.xls`: Populația ocupată pe sexe și grupe de vârstă, după statutul profesional – categorii de localități
+- `vol3/t19.xls`: Populația ocupată pe sexe, după statutul profesional – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `vol3/t20.xls`: Populația ocupată pe sexe și grupe de vârstă, după sectorul în care lucrează – categorii de localități
+- `vol3/t21.xls`: Populația ocupată pe sexe, după sectorul în care lucrează – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `vol3/t22.xls`: Populația ocupată pe sexe și grupe de vârstă, după nivelul de educație și profilul instituției de învățământ absolvite
+- `vol3/t23.xls`: Populația ocupată pe sexe și grupe de ocupații, după nivelul de educație al instituției de învățământ absolvite – categorii de localități
+- `vol3/t24.xls`: Populația ocupată pe sexe, după nivelul de educație al instituției de învățământ absolvite și statutul profesional – categorii de localități
+- `vol3/t25.xls`: Populația ocupată pe sexe și grupe de ocupații, după statutul profesional – categorii de localități
+- `vol3/t26.xls`: Populația ocupată pe sexe și activități ale economiei naționale, după nivelul de educație al instituției de învățământ absolvite – categorii de localități
+- `vol3/t27.xls`: Populația ocupată pe sexe, activități ale economiei naționale și grupe de ocupații – categorii de localități
+- `vol3/t28.xls`: Populația ocupată pe sexe și activități ale economiei naționale, după statutul profesional – categorii de localități
+- `vol3/t29.xls`: Populația ocupată pe sexe și grupe de vârstă, după localizarea geografică a locului de muncă – categorii de localități
+- `vol3/t30.xls`: Populația ocupată pe sexe și grupe de ocupații, după localizarea geografică a locului de muncă – categorii de localități
+- `vol3/t31.xls`: Populația ocupată pe sexe și activități ale economiei naționale, după localizarea geografică a locului de muncă – categorii de localități
+- `vol3/t32.xls`: Populația ocupată pe sexe și statute profesionale, după localizarea geografică a locului de muncă – categorii de localități
+- `vol3/t33.xls`: Populația ocupată pe sexe, după localizarea geografică a locului de muncă – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `vol3/t34.xls`: Populația ocupată pe grupe de vârstă și sectorul în care lucrează, după statutul profesional
+- `vol3/t35.xls`: Populația ocupată pe sexe și grupe de ocupații, după durata efectivă a săptămânii de lucru în activitatea principală – categorii de localități
+- `vol3/t36.xls`: Populația ocupată pe sexe și activități ale economiei naționale, după durata efectivă a săptămânii de lucru în activitatea principală – categorii de localități
+- `vol3/t37.xls`: Populația ocupată pe sexe, după statutul profesional și durata efectivă a săptămânii de lucru în activitatea principală – categorii de localități
+- `vol3/t38.xls`: Populația ocupată pe sexe, după sectorul în care lucrează și durata efectivă a săptămânii de lucru în activitatea principală – categorii de localități
+- `vol3/t39.xls`: Persoane care lucrează în activități secundare pe sexe și grupe de ocupații în activitatea principală, după durata efectivă a săptămânii de lucru în activități secundare – categorii de localități
+- `vol3/t40.xls`: Persoane care lucrează în activități secundare pe sexe și activități ale economiei naționale în activitatea principală, după durata efectivă a săptămânii de lucru în activități secundare – categorii de localități
+- `vol3/t41.xls`: Persoane care lucrează în activități secundare pe sexe, după statutul profesional în activitatea principală și durata efectivă a săptămânii de lucru în activități secundare – categorii de localități
+- `vol3/t42.xls`: Persoane care lucrează în activități secundare pe sexe, după sectorul în care lucrează în activitatea principală și durata efectivă a săptămânii de lucru în activități secundare – categorii de localități
+- `vol3/t43.xls`: Persoane care lucrează în activități secundare pe sexe, după durata efectivă a săptămânii de lucru în activitatea principală și în activități secundare – categorii de localități
+- `vol3/t44.xls`: Șomerii pe sexe și grupe de vârstă după durata șomajului – categorii de localități
+- `vol3/t45.xls`: Șomerii pe sexe, după durata șomajului – categorii de localități, macroregiuni, regiuni de dezvoltare și județe
+- `vol3/t46.xls`: Șomerii pe sexe și nivelul de educație al instituției de învățământ absolvite, după grupa de vârstă – categorii de localități
+- `vol3/t47.xls`: Șomerii pe sexe și nivelul de educație al instituției de învățământ absolvite, după durata șomajului – categorii de localități
+- `vol3/t48.xls`: Șomerii pe sexe și grupe de vârstă, după forma de protecție socială de care beneficiază – categorii de localități
+- `vol3/t49.xls`: Șomerii pe sexe, după forma de protecție socială de care beneficiază – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol3/t50.xls`: Șomerii în căutarea unui alt loc de muncă pe sexe și grupa de ocupații din care face parte ocupația avută la ultimul loc de muncă, după durata șomajului – categorii de localități
+- `vol3/t51.xls`: Șomerii în căutarea unui alt loc de muncă pe sexe, grupe de vârstă și ocupația avută la ultimul loc de muncă – categorii de localități
+- `vol3/t52.xls`: Șomerii în căutarea unui alt loc de muncă pe sexe și grupe de vârstă, după activitatea economică a ultimului loc de muncă – categorii de localități
+- `vol3/t53.xls`: Șomerii în căutarea unui alt loc de muncă pe sexe și activitatea economică a ultimului loc de muncă, după durata șomajului – categorii de localități
+- `vol3/t54.xls`: Șomerii în căutarea unui alt loc de muncă pe sexe și statutul profesional avut la ultimul loc de muncă, după durata șomajului – categorii de localități
+- `vol3/t55.xls`: Persoane de 6 ani și peste care au dificultăți în desfășurarea zilnică a activității curente pe grupe de vârstă și sexe – categorii de localități și județe
+- `vol3/t56.xls`: Persoane de 6 ani și peste care au dificultăți în desfășurarea zilnică a activității curente, după statutul activității curente, pe sexe și grupe de vârstă – categorii de localități
+- `vol3/t57.xls`: Persoane de 6 ani și peste care au dificultăți în desfășurarea zilnică a activității curente după tipul și nivelul dificultății, pe sexe – categorii de localități și județe
+- `vol3/t58.xls`: Persoane de 6 ani și peste care au dificultăți în desfășurarea zilnică a activității curente pe sexe, după tipul și cauza dificultății – categorii de localități și județe
+
+### Volumul IV: Clădiri, locuințe, gospodării
+- `vol4/t01.xls`: Clădiri, locuințe, camere de locuit și suprafața camerelor de locuit – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol4/t02.xls`: Alte unități de locuit – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol4/t03.xls`: Spații colective de locuit pe tipuri, după numărul de locuri – categorii de localități
+- `vol4/t04.xls`: Spații colective de locuit pe tipuri, după amplasarea și localizarea clădirilor – categorii de localități
+- `vol4/t05.xls`: Clădiri după forma de proprietate – categorii de localități
+- `vol4/t06.xls`: Clădiri în care se află locuințe după tipul clădirii și materialul de construcție al pereților exteriori – categorii de localități
+- `vol4/t07.xls`: Clădiri în care se află locuințe după tipul clădirii și dotarea cu racorduri și instalații – categorii de localități
+- `vol4/t08.xls`: Clădiri rezidențiale după tipul clădirii, perioada construirii și materialul de construcție al pereților exteriori – categorii de localități
+- `vol4/t09.xls`: Clădiri rezidențiale după tipul clădirii, forma de proprietate și materialul de construcție al pereților exteriori ai clădirii – categorii de localități
+- `vol4/t10.xls`: Clădiri rezidențiale după localizarea clădirii și numărul de etaje din clădire – categorii de localități
+- `vol4/t11.xls`: Locuințe convenționale pe forme de proprietate, după tipul clădirii – categorii de localități și județe
+- `vol4/t12.xls`: Locuințe convenționale după perioada construirii clădirii și materialul de construcție al pereților exteriori ai clădirii – categorii de localități
+- `vol4/t13.xls`: Locuințe convenționale după numărul și suprafața camerelor – categorii de localități
+- `vol4/t14.xls`: Locuințe convenționale după materialul din care este confecționată tâmplăria ferestrelor și modalități de reabilitare termică – județe și categorii de localități
+- `vol4/t15.xls`: Locuințe convenționale reabilitate termic după numărul camerelor, pe forme de proprietate – județe și categorii de localități
+- `vol4/t16.xls`: Locuințe convenționale după tipul clădirii, numărul camerelor, felul și amplasarea principalelor dependințe – categorii de localități
+- `vol4/t17.xls`: Locuințe convenționale după tipul clădirii și dotarea cu instalații și dependințe – categorii de localități
+- `vol4/t18.xls`: Locuințe convenționale după tipul clădirii și gradul de dotare cu instalații – categorii de localități
+- `vol4/t19.xls`: Locuințe convenționale ocupate după numărul camerelor și numărul persoanelor care ocupă locuința, pe forme de proprietate – categorii de localități
+- `vol4/t20.xls`: Locuințe convenționale ocupate după numărul camerelor și suprafața camerelor care revine pe o persoană – categorii de localități
+- `vol4/t21.xls`: Locuințe convenționale ocupate după numărul camerelor, numărul gospodăriilor și al persoanelor care ocupă locuința – categorii de localități
+- `vol4/t22.xls`: Locuințe convenționale ocupate pe forme de proprietate, după dotarea cu instalații și dependințe – categorii de localități
+- `vol4/t23.xls`: Locuințe convenționale ocupate după numărul camerelor de locuit, forma de proprietate și titlul sub care este deținută locuința – categorii de localități
+- `vol4/t24.xls`: Locuințe convenționale ocupate după numărul și suprafața camerelor, pe forme de proprietate – categorii de localități
+- `vol4/t25.xls`: Locuințe convenționale ocupate după suprafața camerelor de locuit, numărul gospodăriilor și al persoanelor care ocupă locuința – categorii de localități
+- `vol4/t26.xls`: Locuințe convenționale după tipul clădirii și poziția locuinței în clădire – categorii de localități
+- `vol4/t27.xls`: Locuințe convenționale neocupate după statutul locuinței – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol4/t28.xls`: Locuințe convenționale neocupate după statutul și situația ocupării locuinței – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol4/t29.xls`: Gospodării pe tipuri și gospodării familiale după numărul nucleelor și numărul persoanelor care le alcătuiesc – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
+- `vol4/t30.xls`: Persoane din gospodăriile populației pe sexe și grupe de vârstă, după statutul activității curente și statutul profesional – categorii de localități
+- `vol4/t31.xls`: Gospodării ale populației după numărul persoanelor și al generațiilor – categorii de localități
+- `vol4/t32.xls`: Gospodării ale populației pe tipuri, după numărul persoanelor și al relațiilor de rudenie între acestea – categorii de localități
+- `vol4/t33.xls`: Gospodării ale populației pe tipuri, după etnia capului gospodăriei – categorii de localități
+- `vol4/t34.xls`: Gospodării din locuințe după etnia capului gospodăriei, numărul persoanelor, modul de ocupare a locuinței și suprafața camerelor pe o persoană – categorii de localități
+- `vol4/t35.xls`: Gospodării ale populației din locuințe după dotarea locuinței cu instalații și dependințe și etnia capului gospodăriei – categorii de localități
+- `vol4/t36.xls`: Gospodării familiale după etnia capului gospodăriei, numărul copiilor și al copiilor întreținuți – categorii de localități
+- `vol4/t37.xls`: Gospodării ale populației pe tipuri, după statutul activității curente a capului gospodăriei și numărul persoanelor care le alcătuiesc – categorii de localități
+- `vol4/t38.xls`: Gospodării ale populației al căror cap de gospodărie este persoană ocupată pe tipuri, după statutul profesional al capului gospodăriei și numărul persoanelor care le alcătuiesc – categorii de localități
+- `vol4/t39.xls`: Gospodării ale populației după statutul activității curente a capului gospodăriei, numărul persoanelor, al celor active și al salariaților din gospodărie – categorii de localități
+- `vol4/t40.xls`: Capi de gospodărie pe sexe, stare civilă și grupe de vârstă, după numărul persoanelor din gospodărie – categorii de localități
+- `vol4/t41.xls`: Gospodării familiale pe tipuri de nuclee, după numărul copiilor – categorii de localități și județe
+- `vol4/t42.xls`: Gospodării familiale pe tipuri de nuclee, după numărul copiilor și existența copiilor cu vârsta sub 25 ani – categorii de localități
+- `vol4/t43.xls`: Gospodării familiale cu copii după statutul activității curente a capului gospodăriei, numărul persoanelor active, numărul copiilor și al copiilor întreținuți – categorii de localități
+- `vol4/t44.xls`: Gospodării cu copii după statutul activității curente a capului gospodăriei, numărul persoanelor active, numărul copiilor și al copiilor întreținuți cu vârsta sub 25 ani – categorii de localități
+- `vol4/t45.xls`: Nuclee familiale pe tipuri, după etnia persoanelor care le alcătuiesc – categorii de localități
+- `vol4/t46.xls`: Nuclee familiale pe tipuri, după religia persoanelor care le alcătuiesc – categorii de localități
+- `vol4/t47.xls`: Nuclee familiale pe tipuri, după statutul activității curente a capului nucleului, numărul copiilor, numărul persoanelor întreținute și al celor active
+- `vol4/t48.xls`: Nuclee familiale pe tipuri, după statutul activității curente a capului nucleului și numărul copiilor – categorii de localități
+- `vol4/t49.xls`: Persoane care alcătuiesc nuclee familiale pe sexe și grupe de vârstă, după statutul activității curente și statutul profesional – categorii de localități
+- `vol4/t50.xls`: Gospodării din locuințe conventionale după statutul activității curente a capului gospodăriei, numărul persoanelor, modul de ocupare a locuinței și suprafața camerelor de locuit ce revine pe o persoană – categorii de localități
+- `vol4/t51.xls`: Gospodării ale populației din locuințe conventionale după statutul activității curente și statutul profesional al capului gospodăriei, modul de ocupare și titlul sub care este deținută locuința – categorii de localități
+- `vol4/t52.xls`: Gospodării din locuințe convenționale după titlul sub care este deținută locuința, numărul persoanelor care le alcătuiesc și al persoanelor întreținute – categorii de localități și județe
+- `vol4/t53.xls`: Gospodării instituționale după tipul spațiului colectiv de locuit în care sunt situate – macroregiuni, regiuni de dezvoltare, județe și categorii de localități
