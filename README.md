@@ -3,4 +3,9 @@
 - [UAT/2020-11-12](https://github.com/dumco/datasets-romania/tree/main/uat/2020-11-12): limitele țării, județelor și a unităților administrative locale (municipii, orașe, comune). <br/>
 - [RPL/2011](https://github.com/dumco/datasets-romania/tree/main/rpl/2011): numărul şi distribuţia teritorială a populaţiei, a structurii demografice şi socio-economice etc. <br/>
 
+## În lucru
+- [Alegeri parlamentare 2020](https://github.com/dumco/datasets-romania/tree/main/alegeri/parlamentare-2020): prezența la vot și rezultatele alegerilor parlamentare din 2020. <br/>
+- [Revoluția din 1989](https://github.com/dumco/datasets-romania/tree/main/revolutie-89): statistica Revoluției din 1989: decese după localitate și dată, profesiile victimelor etc. <br/>
+
 🇷🇴
+
