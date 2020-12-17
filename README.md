@@ -5,7 +5,7 @@
 
 ## În lucru
 - [Alegeri parlamentare 2020](https://github.com/dumco/datasets-romania/tree/main/alegeri/parlamentare-2020): prezența la vot și rezultatele alegerilor parlamentare din 2020. <br/>
-- [Revoluția din 1989](https://github.com/dumco/datasets-romania/tree/main/revolutie-89): statistica Revoluției din 1989: decese după localitate și dată, profesiile victimelor etc. <br/>
+- [Revoluția din 1989](https://github.com/dumco/datasets-romania/tree/revolutie-1989/revolutie-1989): statistica Revoluției din 1989: decese după localitate și dată, profesiile victimelor etc. <br/>
 
 🇷🇴
 
